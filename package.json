@@ -1,0 +1,28 @@
+{
+  "name": "toy-store",
+  "version": "1.0.0",
+  "description": "website of a toy store",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justfaku/toy-store.git"
+  },
+  "author": "justfaku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justfaku/toy-store/issues"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  }
+}
