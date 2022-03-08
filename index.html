@@ -2,22 +2,18 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!-- Icons Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <!-- Local CSS -->
-  <link rel="stylesheet" href="css/main.css">
-  <title>New-Era</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>New-Era</title>
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
+    <!--   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid container">
       <a class="navbar-brand" href="#">New-Era</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -36,90 +32,156 @@
         <button class="btn btn-outline-success search-btn" type="submit">Search</button>
       </form>
     </div>
-  </nav>
+  </nav> -->
 
-  <header class="head">
-    <div class="container">
-      <div class="grid-container">
-        <div class="left-content">
+
+
+    <!-- Header -->
+    <header>
+        <div class="row head-container">
+
+            <!-- Navigation -->
+            <nav class="navbar container">
+                <a href="index.html" class="navbar-brand">New-Era</a>
+
+                <form class="d-flex search-form ">
+                    <input class="form-control me-2 search " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-success search-btn " type="submit ">Search</button>
+                </form>
+
+            </nav>
+            <div class="col-2">
+                <h1>Todo lo que buscas en <br>Toy-Store New-Era</h1>
+                <p> Los juguetes más nuevos y vendidos para niños y adultos los encontrás<br>acá, en Toy-Store New-Era</p>
+                <a href="#products" class="btn explore-btn">Explorar</a>
+            </div>
+            <div class="col-2">
+                <img src="img/header.png" ">
+              </div>
+          </div>
+  
+      </header>
+
+    <!--   <header class=" head ">
+    <div class=" container ">
+      <div class=" grid-container ">
+        <div class=" left-content ">
           <h1>Todo lo que buscas en Toy-Store New-Era</h1>
           <p>
             Los juguetes más nuevos y vendidos para niños y adultos los encontrás acá, en Toy-Store New-Era.
           </p>
-          <button type="button" class="btn explore-btn"><a href="#products">Explorar</a></button>
+          <button type=" button " class=" btn explore-btn "><a href=" #products ">Explorar</a></button>
         </div>
-        <div class="right-content">
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="container" id="products">
-    <h1 class="products-title">Productos</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="img/poppit.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Poppit</h5>
-          </div>
-          <p class="card-text text-muted price">3$</p>
-          <button type="button" class="btn buy-btn"><i class="bi bi-cart2 buy-cart-icon"></i>Comprar</button>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/spinner.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Spinner</h5>
-          </div>
-          <p class="card-text text-muted price">4$</p>
-          <button type="button" class="btn buy-btn"><i class="bi bi-cart2 buy-cart-icon"></i>Comprar</button>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/rubik.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Cubo Rubik</h5>
-          </div>
-          <p class="card-text text-muted price">5$</p>
-          <button type="button" class="btn buy-btn"><i class="bi bi-cart2 buy-cart-icon"></i>Comprar</button>
+        <div class=" right-content ">
         </div>
       </div>
     </div>
-  </div>
+  </header> -->
 
+    <!-- Products Section -->
+    <section class=" container " id="products">
+                <h2 class="products-title ">Productos</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col ">
+                        <div class="card ">
+                            <img src="img/poppit.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h3 class="card-title ">Poppit</h3>
+                            </div>
+                            <button type="button " class="btn buy-btn ">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card ">
+                            <img src="img/spinner.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h3 class="card-title ">Spinner</h3>
+                            </div>
+                            <button type="button " class="btn buy-btn ">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card ">
+                            <img src="img/rubik.jpg " class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h3 class="card-title ">Cubo Rubik</h3>
+                            </div>
+                            <button type="button " class="btn buy-btn ">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                </section>
 
+                <div class="container ">
+                    <form>
+                        <div class="row ">
+                            <div class="form-group col-sm-6 ">
+                                <label for="name " class="form-label ">Nombre</label>
+                                <input type="text " class="form-control " id="name " placeholder="Ingrese su nombre ">
+                            </div>
+                            <div class="form-group col-sm-6 ">
+                                <label for="lastname " class="form-label ">Apellido</label>
+                                <input type="text " class="form-control " id="name " placeholder="Ingrese su apellido ">
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="email " class="form-label ">Email</label>
+                            <input type="email " class="form-control " id="email " placeholder="Ingrese su email ">
+                        </div>
+                        <div class="row ">
+                            <div class="form-group col-sm-9 ">
+                                <label for="address " class="form-label ">Domicilio</label>
+                                <input type="text " class="form-control " id="address " placeholder="Domicilio ">
+                            </div>
+                            <div class="form-group col-sm-3 ">
+                                <label for="city " class="form-label ">Departamento</label>
+                                <select id="city " class="form-control ">
+                                    <option selected>Montevideo</option>
+                                    <option>Interior</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row ">
+                            <div class="form-group col-sm ">
+                                <label for="commentary " class="form-label ">Comentario</label>
+                                <textarea class="form-control " id="commentary " placeholder="Ingresa tu comentario "
+                                    rows="6 "></textarea>
+                            </div>
+                        </div>
+                        <input class="btn btn " type="submit " value="Enviar " required style="margin-top: 6px; ">
+                    </form>
+                </div>
 
-  <footer>
-    <div class="container-fluid footer">
-      <div class="row footer-row">
-        <div class="col-sm-4 d-flex flex-column align-items-center">
-          <a href="https://www.facebook.com">Facebook</a>
-          <a href="https://www.instagram.com">Instagram</a>
-          <a href="https://www.twitter.com">Twitter</a>
-        </div>
-        <div class="col-sm-4 d-flex flex-column align-items-center">
-          <address>
-            <h4>Oficina Central</h4>
-            <p>Avda. Italia 6101, Montevideo, UY</p>
-            <p>+598 91 234 567</p>
-            <p>contacto@new-era.com</p>
-          </address>
-        </div>
-        <div class="col-sm-4 d-flex flex-column align-items-center">
-          <a href="./about.html">Sobre nosotros</a>
-          <a href="https://www.instagram.com">Política de cookies</a>
-          <a href="https://www.twitter.com">Términos y condiciones</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+                <footer>
+                    <div class="container-fluid footer ">
+                        <div class="row footer-row ">
+                            <div class="col-sm-4 d-flex flex-column align-items-center ">
+                                <a href="https://www.facebook.com ">Facebook</a>
+                                <a href="https://www.instagram.com ">Instagram</a>
+                                <a href="https://www.twitter.com ">Twitter</a>
+                            </div>
+                            <div class="col-sm-4 d-flex flex-column align-items-center ">
+                                <address>
+                                    <h4>Oficina Central</h4>
+                                    <p>Avda. Italia 6101, Montevideo, UY</p>
+                                    <p>+598 91 234 567</p>
+                                    <p>contacto@new-era.com</p>
+                                </address>
+                            </div>
+                            <div class="col-sm-4 d-flex flex-column align-items-center ">
+                                <a href="./about.html ">Sobre nosotros</a>
+                                <a href="https://www.instagram.com ">Política de cookies</a>
+                                <a href="https://www.twitter.com ">Términos y condiciones</a>
+                            </div>
+                        </div>
+                    </div>
 
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+                </footer>
+
+                <!-- Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+                    crossorigin="anonymous "></script>
 </body>
 
 </html>
